@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{916D710A-9F78-452E-807D-65FC56EF92D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LVSA.Newsletter.Domain", "LVSA.Newsletter.Domain\LVSA.Newsletter.Domain.csproj", "{A30381D6-2EA0-47D5-A5ED-821B6784EDE6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infrastructure", "4 - Infrastructure", "{9A659B45-DE72-4417-87C8-0EEED7EE692F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - Data", "4.1 - Data", "{F346BE69-28AA-44EE-9284-DB81C1B31A0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LVSA.Newsletter.Infrastructure.Data", "LVSA.Newsletter.Infrastructure.Data\LVSA.Newsletter.Infrastructure.Data.csproj", "{73E4AA46-BB97-4BEA-865E-F7C978E0BDCC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presentation", "0 - Presentation", "{BC1D87E4-6698-495A-88E4-CC2BE68B000F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LVSA.Newsletter.Console", "LVSA.Newsletter.Console\LVSA.Newsletter.Console.csproj", "{7E68C548-F566-44CC-BBFC-F1124016A550}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Application", "1 - Application", "{09F05635-F3BB-4226-A409-7D18EAA4A1CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LVSA.Newsletter.Application", "LVSA.Newsletter.Application\LVSA.Newsletter.Application.csproj", "{3ADF8763-DA4A-4570-A3E6-37E208EB8A0B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2 - CrossCutting", "4.2 - CrossCutting", "{75FE7FC5-7E0D-4FD3-9861-C6AF96A92D7B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2.1 - IoC", "4.2.1 - IoC", "{C165616A-8F1F-4155-B2DE-5D66C98A17F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LVSA.Newsletter.Infrastructure.CrossCutting.IoC.Domain", "LVSA.Newsletter.Infrastructure.CrossCutting.IoC.Domain\LVSA.Newsletter.Infrastructure.CrossCutting.IoC.Domain.csproj", "{BD12A20D-E231-4EFE-AE04-894C2A63A307}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LVSA.Newsletter.Infrastructure.CrossCutting.IoC.Application", "LVSA.Newsletter.Infrastructure.CrossCutting.IoC.Application\LVSA.Newsletter.Infrastructure.CrossCutting.IoC.Application.csproj", "{4021C0D7-E083-4DCE-8C93-7AC2C16FE850}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LVSA.Newsletter.Presentation", "LVSA.Newsletter.Presentation\LVSA.Newsletter.Presentation.csproj", "{02DE115D-2670-4FF5-BC46-7F6A636BF042}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A30381D6-2EA0-47D5-A5ED-821B6784EDE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A30381D6-2EA0-47D5-A5ED-821B6784EDE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A30381D6-2EA0-47D5-A5ED-821B6784EDE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A30381D6-2EA0-47D5-A5ED-821B6784EDE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73E4AA46-BB97-4BEA-865E-F7C978E0BDCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73E4AA46-BB97-4BEA-865E-F7C978E0BDCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73E4AA46-BB97-4BEA-865E-F7C978E0BDCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73E4AA46-BB97-4BEA-865E-F7C978E0BDCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E68C548-F566-44CC-BBFC-F1124016A550}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E68C548-F566-44CC-BBFC-F1124016A550}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E68C548-F566-44CC-BBFC-F1124016A550}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E68C548-F566-44CC-BBFC-F1124016A550}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ADF8763-DA4A-4570-A3E6-37E208EB8A0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ADF8763-DA4A-4570-A3E6-37E208EB8A0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ADF8763-DA4A-4570-A3E6-37E208EB8A0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ADF8763-DA4A-4570-A3E6-37E208EB8A0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD12A20D-E231-4EFE-AE04-894C2A63A307}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD12A20D-E231-4EFE-AE04-894C2A63A307}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD12A20D-E231-4EFE-AE04-894C2A63A307}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD12A20D-E231-4EFE-AE04-894C2A63A307}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4021C0D7-E083-4DCE-8C93-7AC2C16FE850}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4021C0D7-E083-4DCE-8C93-7AC2C16FE850}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4021C0D7-E083-4DCE-8C93-7AC2C16FE850}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4021C0D7-E083-4DCE-8C93-7AC2C16FE850}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02DE115D-2670-4FF5-BC46-7F6A636BF042}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02DE115D-2670-4FF5-BC46-7F6A636BF042}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02DE115D-2670-4FF5-BC46-7F6A636BF042}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02DE115D-2670-4FF5-BC46-7F6A636BF042}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A30381D6-2EA0-47D5-A5ED-821B6784EDE6} = {916D710A-9F78-452E-807D-65FC56EF92D4}
+		{F346BE69-28AA-44EE-9284-DB81C1B31A0D} = {9A659B45-DE72-4417-87C8-0EEED7EE692F}
+		{73E4AA46-BB97-4BEA-865E-F7C978E0BDCC} = {F346BE69-28AA-44EE-9284-DB81C1B31A0D}
+		{7E68C548-F566-44CC-BBFC-F1124016A550} = {BC1D87E4-6698-495A-88E4-CC2BE68B000F}
+		{3ADF8763-DA4A-4570-A3E6-37E208EB8A0B} = {09F05635-F3BB-4226-A409-7D18EAA4A1CD}
+		{75FE7FC5-7E0D-4FD3-9861-C6AF96A92D7B} = {9A659B45-DE72-4417-87C8-0EEED7EE692F}
+		{C165616A-8F1F-4155-B2DE-5D66C98A17F0} = {75FE7FC5-7E0D-4FD3-9861-C6AF96A92D7B}
+		{BD12A20D-E231-4EFE-AE04-894C2A63A307} = {C165616A-8F1F-4155-B2DE-5D66C98A17F0}
+		{4021C0D7-E083-4DCE-8C93-7AC2C16FE850} = {C165616A-8F1F-4155-B2DE-5D66C98A17F0}
+		{02DE115D-2670-4FF5-BC46-7F6A636BF042} = {BC1D87E4-6698-495A-88E4-CC2BE68B000F}
+	EndGlobalSection
+EndGlobal

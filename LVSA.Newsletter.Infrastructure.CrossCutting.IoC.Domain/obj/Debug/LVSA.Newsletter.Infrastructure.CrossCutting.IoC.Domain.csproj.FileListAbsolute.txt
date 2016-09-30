@@ -1,0 +1,13 @@
+C:\Users\Avell B155 MAX\Documents\Visual Studio 2015\Projects\LVSA.Newsletter.Presentation\LVSA.Newsletter.Infrastructure.CrossCutting.IoC.Domain\bin\Debug\LVSA.Newsletter.Infrastructure.CrossCutting.IoC.Domain.dll
+C:\Users\Avell B155 MAX\Documents\Visual Studio 2015\Projects\LVSA.Newsletter.Presentation\LVSA.Newsletter.Infrastructure.CrossCutting.IoC.Domain\bin\Debug\LVSA.Newsletter.Infrastructure.CrossCutting.IoC.Domain.pdb
+C:\Users\Avell B155 MAX\Documents\Visual Studio 2015\Projects\LVSA.Newsletter.Presentation\LVSA.Newsletter.Infrastructure.CrossCutting.IoC.Domain\bin\Debug\LVSA.Newsletter.Domain.dll
+C:\Users\Avell B155 MAX\Documents\Visual Studio 2015\Projects\LVSA.Newsletter.Presentation\LVSA.Newsletter.Infrastructure.CrossCutting.IoC.Domain\bin\Debug\LVSA.Newsletter.Infrastructure.Data.dll
+C:\Users\Avell B155 MAX\Documents\Visual Studio 2015\Projects\LVSA.Newsletter.Presentation\LVSA.Newsletter.Infrastructure.CrossCutting.IoC.Domain\bin\Debug\Ninject.dll
+C:\Users\Avell B155 MAX\Documents\Visual Studio 2015\Projects\LVSA.Newsletter.Presentation\LVSA.Newsletter.Infrastructure.CrossCutting.IoC.Domain\bin\Debug\EntityFramework.dll
+C:\Users\Avell B155 MAX\Documents\Visual Studio 2015\Projects\LVSA.Newsletter.Presentation\LVSA.Newsletter.Infrastructure.CrossCutting.IoC.Domain\bin\Debug\LVSA.Newsletter.Domain.pdb
+C:\Users\Avell B155 MAX\Documents\Visual Studio 2015\Projects\LVSA.Newsletter.Presentation\LVSA.Newsletter.Infrastructure.CrossCutting.IoC.Domain\bin\Debug\LVSA.Newsletter.Infrastructure.Data.pdb
+C:\Users\Avell B155 MAX\Documents\Visual Studio 2015\Projects\LVSA.Newsletter.Presentation\LVSA.Newsletter.Infrastructure.CrossCutting.IoC.Domain\bin\Debug\Ninject.xml
+C:\Users\Avell B155 MAX\Documents\Visual Studio 2015\Projects\LVSA.Newsletter.Presentation\LVSA.Newsletter.Infrastructure.CrossCutting.IoC.Domain\bin\Debug\EntityFramework.xml
+C:\Users\Avell B155 MAX\Documents\Visual Studio 2015\Projects\LVSA.Newsletter.Presentation\LVSA.Newsletter.Infrastructure.CrossCutting.IoC.Domain\obj\Debug\LVSA.Newsletter.Infrastructure.CrossCutting.IoC.Domain.csprojResolveAssemblyReference.cache
+C:\Users\Avell B155 MAX\Documents\Visual Studio 2015\Projects\LVSA.Newsletter.Presentation\LVSA.Newsletter.Infrastructure.CrossCutting.IoC.Domain\obj\Debug\LVSA.Newsletter.Infrastructure.CrossCutting.IoC.Domain.dll
+C:\Users\Avell B155 MAX\Documents\Visual Studio 2015\Projects\LVSA.Newsletter.Presentation\LVSA.Newsletter.Infrastructure.CrossCutting.IoC.Domain\obj\Debug\LVSA.Newsletter.Infrastructure.CrossCutting.IoC.Domain.pdb

@@ -1,0 +1,5 @@
+c:\users\avell b155 max\documents\visual studio 2015\Projects\LVSA.Newsletter.Presentation\LVSA.Newsletter.Domain\bin\Debug\LVSA.Newsletter.Domain.dll
+c:\users\avell b155 max\documents\visual studio 2015\Projects\LVSA.Newsletter.Presentation\LVSA.Newsletter.Domain\bin\Debug\LVSA.Newsletter.Domain.pdb
+c:\users\avell b155 max\documents\visual studio 2015\Projects\LVSA.Newsletter.Presentation\LVSA.Newsletter.Domain\obj\Debug\LVSA.Newsletter.Domain.csprojResolveAssemblyReference.cache
+c:\users\avell b155 max\documents\visual studio 2015\Projects\LVSA.Newsletter.Presentation\LVSA.Newsletter.Domain\obj\Debug\LVSA.Newsletter.Domain.dll
+c:\users\avell b155 max\documents\visual studio 2015\Projects\LVSA.Newsletter.Presentation\LVSA.Newsletter.Domain\obj\Debug\LVSA.Newsletter.Domain.pdb

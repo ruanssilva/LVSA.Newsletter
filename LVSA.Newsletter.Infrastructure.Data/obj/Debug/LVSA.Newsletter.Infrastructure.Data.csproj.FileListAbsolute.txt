@@ -1,0 +1,12 @@
+c:\users\avell b155 max\documents\visual studio 2015\Projects\LVSA.Newsletter.Presentation\LVSA.Newsletter.Infrastructure.Data\bin\Debug\LVSA.Newsletter.Infrastructure.Data.dll.config
+c:\users\avell b155 max\documents\visual studio 2015\Projects\LVSA.Newsletter.Presentation\LVSA.Newsletter.Infrastructure.Data\bin\Debug\LVSA.Newsletter.Infrastructure.Data.dll
+c:\users\avell b155 max\documents\visual studio 2015\Projects\LVSA.Newsletter.Presentation\LVSA.Newsletter.Infrastructure.Data\bin\Debug\LVSA.Newsletter.Infrastructure.Data.pdb
+c:\users\avell b155 max\documents\visual studio 2015\Projects\LVSA.Newsletter.Presentation\LVSA.Newsletter.Infrastructure.Data\bin\Debug\EntityFramework.dll
+c:\users\avell b155 max\documents\visual studio 2015\Projects\LVSA.Newsletter.Presentation\LVSA.Newsletter.Infrastructure.Data\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\avell b155 max\documents\visual studio 2015\Projects\LVSA.Newsletter.Presentation\LVSA.Newsletter.Infrastructure.Data\bin\Debug\LVSA.Newsletter.Domain.dll
+c:\users\avell b155 max\documents\visual studio 2015\Projects\LVSA.Newsletter.Presentation\LVSA.Newsletter.Infrastructure.Data\bin\Debug\LVSA.Newsletter.Domain.pdb
+c:\users\avell b155 max\documents\visual studio 2015\Projects\LVSA.Newsletter.Presentation\LVSA.Newsletter.Infrastructure.Data\bin\Debug\EntityFramework.xml
+c:\users\avell b155 max\documents\visual studio 2015\Projects\LVSA.Newsletter.Presentation\LVSA.Newsletter.Infrastructure.Data\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\avell b155 max\documents\visual studio 2015\Projects\LVSA.Newsletter.Presentation\LVSA.Newsletter.Infrastructure.Data\obj\Debug\LVSA.Newsletter.Infrastructure.Data.csprojResolveAssemblyReference.cache
+c:\users\avell b155 max\documents\visual studio 2015\Projects\LVSA.Newsletter.Presentation\LVSA.Newsletter.Infrastructure.Data\obj\Debug\LVSA.Newsletter.Infrastructure.Data.dll
+c:\users\avell b155 max\documents\visual studio 2015\Projects\LVSA.Newsletter.Presentation\LVSA.Newsletter.Infrastructure.Data\obj\Debug\LVSA.Newsletter.Infrastructure.Data.pdb
