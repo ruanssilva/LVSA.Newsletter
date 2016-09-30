@@ -1,0 +1,101 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@using (Html.BeginForm())
+{
+
+    <div class="form-horizontal">
+        <div class="form-group">
+            <label class="control-label col-md-2">Tipo de envio</label>
+            <div class="col-md-10">
+                <div>
+                    <label>
+                        <input type="radio" value="Text/SMS" @(ViewBag.Tipo == "Text/SMS" ? "checked" : "") name="Tipo" class="ace" />
+                        <span class="lbl"> Text/SMS</span>
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        <input type="radio" value="E-mail" @(ViewBag.Tipo == "E-mail" ? "checked" : "") name="Tipo" class="ace" />
+                        <span class="lbl"> E-mail</span>
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-md-2">Servidor</label>
+            <div class="col-md-10">
+                @Html.DropDownList("ServidorId", new SelectList(ViewBag.ServidorSet, "Id", "Nome", "Funcao", (object)ViewBag.ServidorId), "Selecione...", new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-md-2">Remetente</label>
+            <div class="col-md-10">
+                @Html.DropDownList("RemetenteId", new SelectList(ViewBag.RemetenteSet, "Id", "Nome", (object)ViewBag.RemetenteId), "Selecione...", new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="form-group sms" style="display:none;">
+            <label class="control-label col-md-2">Text/SMS</label>
+            <div class="col-md-10">
+                @Html.TextArea("SMS", new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="form-group mail" style="display:none;">
+            <label class="control-label col-md-2">Assunto</label>
+            <div class="col-md-10">
+                @Html.TextBox("Assunto", "", new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="form-group mail" style="display:none;">
+            <label class="control-label col-md-2">Corpo e-mail</label>
+            <div class="col-md-10">
+                @Html.TextArea("Body", new { @class = "form-control" })
+            </div>
+        </div>
+
+        <button type="submit" formaction="@Url.Action("SMS")" class="btn btn-primary sms">Enviar Text/SMS</button>
+        <button type="submit" formaction="@Url.Action("Mail")" class="btn btn-primary mail">Enviar E-mail</button>
+    </div>
+
+    
+}
+
+
+@section scripts {
+    <script>
+        $(function () {
+
+            $('select[name="ServidorId"]')
+                    .find('optgroup').hide();
+
+            
+
+            $('input[name="Tipo"]').change(function () {
+
+                $('select[name="ServidorId"]').val('');
+
+                $('select[name="ServidorId"]')
+                    .find('optgroup[label="' + $(this).val() + '"]').show();
+
+                $('select[name="ServidorId"]')
+                    .find('optgroup:not([label="' + $(this).val() + '"])').hide();
+
+                if ($(this).val() == "Text/SMS") {
+                    $('.form-group.sms').show();
+                    $('.form-group.mail').hide();
+                }
+                else if ($(this).val() == "E-mail") {
+                    $('.form-group.mail').show();
+                    $('.form-group.sms').hide();
+                }
+            });
+
+            $('input[name="Tipo"]').trigger('change');
+
+        });
+    </script>
+}

@@ -15,5 +15,17 @@ namespace LVSA.Newsletter.Application.ViewModels
         public string Descricao { get; set; }
         public string Tipo { get; set; }
         public string Url { get; set; }
+
+        public string Funcao
+        {
+            get
+            {
+                if (Tipo == "S")
+                    return "Text/SMS";
+                else if (Tipo == "E")
+                    return "E-mail";
+                return "Outros";
+            }
+        }
     }
 }

@@ -174,7 +174,9 @@
     <Compile Include="App_Start\NinjectWebCommon.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\ControllerBase.cs" />
+    <Compile Include="Controllers\EnviaController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\RemetenteController.cs" />
     <Compile Include="Controllers\ServidorController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -223,6 +225,12 @@
     <Content Include="Views\Servidor\Create.cshtml" />
     <Content Include="Views\Servidor\Edit.cshtml" />
     <Content Include="Views\Servidor\Delete.cshtml" />
+    <Content Include="Views\Remetente\Index.cshtml" />
+    <Content Include="Views\Remetente\Details.cshtml" />
+    <Content Include="Views\Remetente\Create.cshtml" />
+    <Content Include="Views\Remetente\Edit.cshtml" />
+    <Content Include="Views\Remetente\Delete.cshtml" />
+    <Content Include="Views\Envia\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
