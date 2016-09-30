@@ -13,6 +13,12 @@ namespace LVSA.Newsletter.Presentation
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
+            //routes.MapRoute(
+            //    name: "SearchOfId",
+            //    url: "{controller}/{verb}/{id}",
+            //    defaults: new { action = "Action" }
+            //);
+
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",

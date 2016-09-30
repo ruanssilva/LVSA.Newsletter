@@ -13,6 +13,9 @@ namespace LVSA.Newsletter.Infrastructure.Data.EntityConfig
         public ServidorConfiguration()
         {
             ToTable("Servidor", "Newsletter");
+
+            Property(p => p.Tipo)
+                .HasMaxLength(1);
         }
     }
 }

@@ -11,3 +11,16 @@ C:\Users\Avell B155 MAX\Documents\Visual Studio 2015\Projects\LVSA.Newsletter.Pr
 C:\Users\Avell B155 MAX\Documents\Visual Studio 2015\Projects\LVSA.Newsletter.Presentation\LVSA.Newsletter.Infrastructure.CrossCutting.IoC.Application\obj\Debug\LVSA.Newsletter.Infrastructure.CrossCutting.IoC.Application.csprojResolveAssemblyReference.cache
 C:\Users\Avell B155 MAX\Documents\Visual Studio 2015\Projects\LVSA.Newsletter.Presentation\LVSA.Newsletter.Infrastructure.CrossCutting.IoC.Application\obj\Debug\LVSA.Newsletter.Infrastructure.CrossCutting.IoC.Application.dll
 C:\Users\Avell B155 MAX\Documents\Visual Studio 2015\Projects\LVSA.Newsletter.Presentation\LVSA.Newsletter.Infrastructure.CrossCutting.IoC.Application\obj\Debug\LVSA.Newsletter.Infrastructure.CrossCutting.IoC.Application.pdb
+C:\Users\Avell B155 MAX\Documents\visual studio 2015\Projects\LVSA.Newsletter\LVSA.Newsletter.Infrastructure.CrossCutting.IoC.Application\bin\Debug\LVSA.Newsletter.Infrastructure.CrossCutting.IoC.Application.dll
+C:\Users\Avell B155 MAX\Documents\visual studio 2015\Projects\LVSA.Newsletter\LVSA.Newsletter.Infrastructure.CrossCutting.IoC.Application\bin\Debug\LVSA.Newsletter.Infrastructure.CrossCutting.IoC.Application.pdb
+C:\Users\Avell B155 MAX\Documents\visual studio 2015\Projects\LVSA.Newsletter\LVSA.Newsletter.Infrastructure.CrossCutting.IoC.Application\bin\Debug\LVSA.Newsletter.Application.dll
+C:\Users\Avell B155 MAX\Documents\visual studio 2015\Projects\LVSA.Newsletter\LVSA.Newsletter.Infrastructure.CrossCutting.IoC.Application\bin\Debug\LVSA.Newsletter.Domain.dll
+C:\Users\Avell B155 MAX\Documents\visual studio 2015\Projects\LVSA.Newsletter\LVSA.Newsletter.Infrastructure.CrossCutting.IoC.Application\bin\Debug\Ninject.dll
+C:\Users\Avell B155 MAX\Documents\visual studio 2015\Projects\LVSA.Newsletter\LVSA.Newsletter.Infrastructure.CrossCutting.IoC.Application\bin\Debug\AutoMapper.dll
+C:\Users\Avell B155 MAX\Documents\visual studio 2015\Projects\LVSA.Newsletter\LVSA.Newsletter.Infrastructure.CrossCutting.IoC.Application\bin\Debug\LVSA.Newsletter.Application.pdb
+C:\Users\Avell B155 MAX\Documents\visual studio 2015\Projects\LVSA.Newsletter\LVSA.Newsletter.Infrastructure.CrossCutting.IoC.Application\bin\Debug\LVSA.Newsletter.Domain.pdb
+C:\Users\Avell B155 MAX\Documents\visual studio 2015\Projects\LVSA.Newsletter\LVSA.Newsletter.Infrastructure.CrossCutting.IoC.Application\bin\Debug\Ninject.xml
+C:\Users\Avell B155 MAX\Documents\visual studio 2015\Projects\LVSA.Newsletter\LVSA.Newsletter.Infrastructure.CrossCutting.IoC.Application\bin\Debug\AutoMapper.xml
+C:\Users\Avell B155 MAX\Documents\visual studio 2015\Projects\LVSA.Newsletter\LVSA.Newsletter.Infrastructure.CrossCutting.IoC.Application\obj\Debug\LVSA.Newsletter.Infrastructure.CrossCutting.IoC.Application.csprojResolveAssemblyReference.cache
+C:\Users\Avell B155 MAX\Documents\visual studio 2015\Projects\LVSA.Newsletter\LVSA.Newsletter.Infrastructure.CrossCutting.IoC.Application\obj\Debug\LVSA.Newsletter.Infrastructure.CrossCutting.IoC.Application.dll
+C:\Users\Avell B155 MAX\Documents\visual studio 2015\Projects\LVSA.Newsletter\LVSA.Newsletter.Infrastructure.CrossCutting.IoC.Application\obj\Debug\LVSA.Newsletter.Infrastructure.CrossCutting.IoC.Application.pdb

@@ -10,3 +10,15 @@ c:\users\avell b155 max\documents\visual studio 2015\Projects\LVSA.Newsletter.Pr
 c:\users\avell b155 max\documents\visual studio 2015\Projects\LVSA.Newsletter.Presentation\LVSA.Newsletter.Infrastructure.Data\obj\Debug\LVSA.Newsletter.Infrastructure.Data.csprojResolveAssemblyReference.cache
 c:\users\avell b155 max\documents\visual studio 2015\Projects\LVSA.Newsletter.Presentation\LVSA.Newsletter.Infrastructure.Data\obj\Debug\LVSA.Newsletter.Infrastructure.Data.dll
 c:\users\avell b155 max\documents\visual studio 2015\Projects\LVSA.Newsletter.Presentation\LVSA.Newsletter.Infrastructure.Data\obj\Debug\LVSA.Newsletter.Infrastructure.Data.pdb
+C:\Users\Avell B155 MAX\Documents\visual studio 2015\Projects\LVSA.Newsletter\LVSA.Newsletter.Infrastructure.Data\bin\Debug\LVSA.Newsletter.Infrastructure.Data.dll.config
+C:\Users\Avell B155 MAX\Documents\visual studio 2015\Projects\LVSA.Newsletter\LVSA.Newsletter.Infrastructure.Data\bin\Debug\LVSA.Newsletter.Infrastructure.Data.dll
+C:\Users\Avell B155 MAX\Documents\visual studio 2015\Projects\LVSA.Newsletter\LVSA.Newsletter.Infrastructure.Data\bin\Debug\LVSA.Newsletter.Infrastructure.Data.pdb
+C:\Users\Avell B155 MAX\Documents\visual studio 2015\Projects\LVSA.Newsletter\LVSA.Newsletter.Infrastructure.Data\bin\Debug\EntityFramework.dll
+C:\Users\Avell B155 MAX\Documents\visual studio 2015\Projects\LVSA.Newsletter\LVSA.Newsletter.Infrastructure.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Avell B155 MAX\Documents\visual studio 2015\Projects\LVSA.Newsletter\LVSA.Newsletter.Infrastructure.Data\bin\Debug\LVSA.Newsletter.Domain.dll
+C:\Users\Avell B155 MAX\Documents\visual studio 2015\Projects\LVSA.Newsletter\LVSA.Newsletter.Infrastructure.Data\bin\Debug\LVSA.Newsletter.Domain.pdb
+C:\Users\Avell B155 MAX\Documents\visual studio 2015\Projects\LVSA.Newsletter\LVSA.Newsletter.Infrastructure.Data\bin\Debug\EntityFramework.xml
+C:\Users\Avell B155 MAX\Documents\visual studio 2015\Projects\LVSA.Newsletter\LVSA.Newsletter.Infrastructure.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Avell B155 MAX\Documents\visual studio 2015\Projects\LVSA.Newsletter\LVSA.Newsletter.Infrastructure.Data\obj\Debug\LVSA.Newsletter.Infrastructure.Data.csprojResolveAssemblyReference.cache
+C:\Users\Avell B155 MAX\Documents\visual studio 2015\Projects\LVSA.Newsletter\LVSA.Newsletter.Infrastructure.Data\obj\Debug\LVSA.Newsletter.Infrastructure.Data.dll
+C:\Users\Avell B155 MAX\Documents\visual studio 2015\Projects\LVSA.Newsletter\LVSA.Newsletter.Infrastructure.Data\obj\Debug\LVSA.Newsletter.Infrastructure.Data.pdb

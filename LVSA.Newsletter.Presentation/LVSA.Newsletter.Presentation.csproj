@@ -173,6 +173,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\NinjectWebCommon.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\ControllerBase.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ServidorController.cs" />
     <Compile Include="Global.asax.cs">
@@ -218,10 +219,15 @@
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Servidor\Index.cshtml" />
+    <Content Include="Views\Servidor\Details.cshtml" />
+    <Content Include="Views\Servidor\Create.cshtml" />
+    <Content Include="Views\Servidor\Edit.cshtml" />
+    <Content Include="Views\Servidor\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+    <Folder Include="Views\ControllerBase\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -234,6 +240,10 @@
     <ProjectReference Include="..\LVSA.Newsletter.Application\LVSA.Newsletter.Application.csproj">
       <Project>{3ADF8763-DA4A-4570-A3E6-37E208EB8A0B}</Project>
       <Name>LVSA.Newsletter.Application</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LVSA.Newsletter.Domain\LVSA.Newsletter.Domain.csproj">
+      <Project>{a30381d6-2ea0-47d5-a5ed-821b6784ede6}</Project>
+      <Name>LVSA.Newsletter.Domain</Name>
     </ProjectReference>
     <ProjectReference Include="..\LVSA.Newsletter.Infrastructure.CrossCutting.IoC.Application\LVSA.Newsletter.Infrastructure.CrossCutting.IoC.Application.csproj">
       <Project>{4021c0d7-e083-4dce-8c93-7ac2c16fe850}</Project>

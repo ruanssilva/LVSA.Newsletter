@@ -16,6 +16,8 @@ namespace LVSA.Newsletter.Presentation
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+
+            LVSA.Newsletter.Application.AutoMapper.AutoMapperConfig.RegisterMappigs();
         }
     }
 }
