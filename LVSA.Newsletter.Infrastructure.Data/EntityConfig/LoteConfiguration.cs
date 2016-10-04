@@ -18,6 +18,10 @@ namespace LVSA.Newsletter.Infrastructure.Data.EntityConfig
                 .WithMany()
                 .HasForeignKey(fk => fk.EnvioId);
 
+            HasRequired(hr => hr.Remetente)
+                .WithMany(wm => wm.LoteSet)
+                .HasForeignKey(fk => fk.RemetenteId);
+
 
         }
     }

@@ -13,9 +13,9 @@ namespace LVSA.Newsletter.Infrastructure.CrossCutting.IoC.Application
     {
         public override void Load()
         {
-            Bind<IDestinatarioAppService>().To<DestinarioAppService>();
+            //Bind<IDestinatarioAppService>().To<DestinarioAppService>();
             Bind<IEnvioAppService>().To<EnvioAppService>();
-            Bind<ILoteAppService>().To<LoteAppService>();
+            //Bind<ILoteAppService>().To<LoteAppService>();
             Bind<IRemetenteAppService>().To<RemetenteAppService>();
             Bind<IServidorAppService>().To<ServidorAppService>();
         }

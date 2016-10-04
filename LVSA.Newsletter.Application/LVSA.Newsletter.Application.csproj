@@ -49,7 +49,6 @@
     <Compile Include="AutoMapper\AutoMapperConfig.cs" />
     <Compile Include="AutoMapper\DomainToViewModelMappingProfile.cs" />
     <Compile Include="AutoMapper\ViewModelToDomainMappingProfile.cs" />
-    <Compile Include="DestinarioAppService.cs" />
     <Compile Include="EnvioAppService.cs" />
     <Compile Include="Interfaces\IAppServiceBase.cs" />
     <Compile Include="Interfaces\IDestinatarioAppService.cs" />
@@ -57,7 +56,6 @@
     <Compile Include="Interfaces\ILoteAppService.cs" />
     <Compile Include="Interfaces\IRemetenteAppService.cs" />
     <Compile Include="Interfaces\IServidorAppService.cs" />
-    <Compile Include="LoteAppService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RemetenteAppService.cs" />
     <Compile Include="ServidorAppService.cs" />

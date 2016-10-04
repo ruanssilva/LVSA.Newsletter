@@ -18,14 +18,14 @@ namespace LVSA.Newsletter.Infrastructure.Data.EntityConfig
                 .HasColumnType("text")
                 .HasMaxLength(100000);
 
-            HasMany(hm => hm.DestinatarioSet)
-                .WithMany(wm => wm.EnvioSet)
-                .Map(m =>
-                {
-                    m.ToTable("Enviado", "Newsletter");
-                    m.MapLeftKey("DestinatarioId");
-                    m.MapRightKey("EnvioId");
-                });
+            //HasMany(hm => hm.DestinatarioSet)
+            //    .WithMany(wm => wm.EnvioSet)
+            //    .Map(m =>
+            //    {
+            //        m.ToTable("Enviado", "Newsletter");
+            //        m.MapLeftKey("DestinatarioId");
+            //        m.MapRightKey("EnvioId");
+            //    });
         }
     }
 }

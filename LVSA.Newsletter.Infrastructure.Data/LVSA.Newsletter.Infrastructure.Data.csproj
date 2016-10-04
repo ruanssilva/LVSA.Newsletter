@@ -51,6 +51,7 @@
   <ItemGroup>
     <Compile Include="DbContext\NewsletterContext.cs" />
     <Compile Include="EntityConfig\DestinatarioConfiguration.cs" />
+    <Compile Include="EntityConfig\EnviadoConfiguration.cs" />
     <Compile Include="EntityConfig\EnvioConfiguration.cs" />
     <Compile Include="EntityConfig\LoteConfiguration.cs" />
     <Compile Include="EntityConfig\RemetenteConfiguration.cs" />
@@ -58,6 +59,7 @@
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\EF\DestinatarioRepository.cs" />
+    <Compile Include="Repository\EF\EnviadoRepository.cs" />
     <Compile Include="Repository\EF\EnvioRepository.cs" />
     <Compile Include="Repository\EF\LoteRepository.cs" />
     <Compile Include="Repository\EF\RemetenteRepository.cs" />

@@ -41,14 +41,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Destinatario.cs" />
+    <Compile Include="Enviado.cs" />
     <Compile Include="Envio.cs" />
     <Compile Include="Interfaces\Repository\IDestinatarioRepository.cs" />
+    <Compile Include="Interfaces\Repository\IEnviadoRepository.cs" />
     <Compile Include="Interfaces\Repository\IEnvioRepository.cs" />
     <Compile Include="Interfaces\Repository\ILoteRepository.cs" />
     <Compile Include="Interfaces\Repository\IRemetenteRepository.cs" />
     <Compile Include="Interfaces\Repository\IRepositoryBase.cs" />
     <Compile Include="Interfaces\Repository\IServidorRepository.cs" />
     <Compile Include="Interfaces\Services\IDestinatarioService.cs" />
+    <Compile Include="Interfaces\Services\IEnviadoService.cs" />
     <Compile Include="Interfaces\Services\IEnvioService.cs" />
     <Compile Include="Interfaces\Services\ILoteService.cs" />
     <Compile Include="Interfaces\Services\IRemetenteService.cs" />
@@ -57,6 +60,7 @@
     <Compile Include="Lote.cs" />
     <Compile Include="Remetente.cs" />
     <Compile Include="Services\DestinatarioService.cs" />
+    <Compile Include="Services\EnviadoService.cs" />
     <Compile Include="Services\EnvioService.cs" />
     <Compile Include="Services\ServidorService.cs" />
     <Compile Include="Services\LoteService.cs" />

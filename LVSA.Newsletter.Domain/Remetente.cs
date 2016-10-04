@@ -12,5 +12,6 @@ namespace LVSA.Newsletter.Domain
         public string Nome { get; set; }
         public string Exibicao { get; set; }
         public string Descricao { get; set; }
+        public virtual ICollection<Lote> LoteSet { get; set; }
     }
 }

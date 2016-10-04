@@ -43,6 +43,7 @@ namespace LVSA.Newsletter.Infrastructure.Data.DbContext
             modelBuilder.Configurations.Add(new LoteConfiguration());
             modelBuilder.Configurations.Add(new RemetenteConfiguration());
             modelBuilder.Configurations.Add(new ServidorConfiguration());
+            modelBuilder.Configurations.Add(new EnviadoConfiguration());
 
 
 

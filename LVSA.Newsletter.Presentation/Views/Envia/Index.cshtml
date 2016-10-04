@@ -5,7 +5,7 @@
 
 <h2>Index</h2>
 
-@using (Html.BeginForm())
+@using (Html.BeginForm("Index", "Envia", FormMethod.Post, new { @enctype = "multipart/form-data" }))
 {
 
     <div class="form-horizontal">
@@ -29,31 +29,43 @@
         <div class="form-group">
             <label class="control-label col-md-2">Servidor</label>
             <div class="col-md-10">
-                @Html.DropDownList("ServidorId", new SelectList(ViewBag.ServidorSet, "Id", "Nome", "Funcao", (object)Model.ServidorId), "Selecione...", new { @class = "form-control" })
+                @Html.DropDownListFor(model => model.ServidorId, new SelectList(ViewBag.ServidorSet, "Id", "Nome", "Funcao", Model?.ServidorId), "Selecione...", new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.ServidorId, "", new { @class = "text-danger" })
             </div>
         </div>
         <div class="form-group">
             <label class="control-label col-md-2">Remetente</label>
             <div class="col-md-10">
-                @Html.DropDownList("RemetenteId", new SelectList(ViewBag.RemetenteSet, "Id", "Nome", (object)Model.RemetenteId), "Selecione...", new { @class = "form-control" })
+                @Html.DropDownListFor(model => model.RemetenteId, new SelectList(ViewBag.RemetenteSet, "Id", "Nome", Model?.RemetenteId), "Selecione...", new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.RemetenteId, "", new { @class = "text-danger" })
             </div>
         </div>
         <div class="form-group sms" style="display:none;">
             <label class="control-label col-md-2">Text/SMS</label>
             <div class="col-md-10">
                 @Html.TextAreaFor(model => model.SMS, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.SMS, "", new { @class = "text-danger" })
             </div>
         </div>
         <div class="form-group mail" style="display:none;">
             <label class="control-label col-md-2">Assunto</label>
             <div class="col-md-10">
                 @Html.TextBoxFor(model => model.Assunto, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.Assunto, "", new { @class = "text-danger" })
             </div>
         </div>
         <div class="form-group mail" style="display:none;">
             <label class="control-label col-md-2">Corpo e-mail</label>
             <div class="col-md-10">
                 @Html.TextAreaFor(model => model.Body, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.Body, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-md-2">Lista de destinatários</label>
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.Arquivo, new { @class = "", @type = "file" })
+                @Html.ValidationMessageFor(model => model.Arquivo, "", new { @class = "text-danger" })
             </div>
         </div>
 

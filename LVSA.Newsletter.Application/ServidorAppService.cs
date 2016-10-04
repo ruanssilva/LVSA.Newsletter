@@ -16,5 +16,12 @@ namespace LVSA.Newsletter.Application
             : base(servidorService)
         {
         }
+
+        public override ServidorViewModel Incluir(ServidorViewModel model)
+        {
+            model.Id = Guid.NewGuid();
+
+            return base.Incluir(model);
+        }
     }
 }

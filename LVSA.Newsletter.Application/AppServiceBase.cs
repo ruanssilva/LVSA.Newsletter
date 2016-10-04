@@ -22,22 +22,22 @@ namespace LVSA.Newsletter.Application
             Service = _service;
         }
 
-        public TViewModel Atualizar(TViewModel model)
+        public virtual TViewModel Atualizar(TViewModel model)
         {
             return Mapper.Map<TEntity, TViewModel>(Service.Update(Mapper.Map<TViewModel, TEntity>(model)));
         }
 
-        public IEnumerable<TViewModel> Filtrar(Expression<Func<TEntity, bool>> predicate)
+        public virtual IEnumerable<TViewModel> Filtrar(Expression<Func<TEntity, bool>> predicate)
         {
             return Mapper.Map<IEnumerable<TEntity>, IEnumerable<TViewModel>>(Service.Find(predicate));
         }
 
-        public TViewModel Incluir(TViewModel model)
+        public virtual TViewModel Incluir(TViewModel model)
         {
             return Mapper.Map<TEntity, TViewModel>(Service.Add(Mapper.Map<TViewModel, TEntity>(model)));
         }
 
-        public void Remover(TViewModel model)
+        public virtual void Remover(TViewModel model)
         {
             Service.Delete(Mapper.Map<TViewModel, TEntity>(model));
         }

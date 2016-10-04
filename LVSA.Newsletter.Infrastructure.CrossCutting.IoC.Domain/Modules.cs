@@ -30,6 +30,9 @@ namespace LVSA.Newsletter.Infrastructure.CrossCutting.IoC.Domain
 
             Bind<IServidorRepository>().To<ServidorRepository>();
             Bind<IServidorService>().To<ServidorService>();
+
+            Bind<IEnviadoRepository>().To<EnviadoRepository>();
+            Bind<IEnviadoService>().To<EnviadoService>();
         }
     }
 }

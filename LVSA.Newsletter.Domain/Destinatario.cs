@@ -12,6 +12,5 @@ namespace LVSA.Newsletter.Domain
         public string Nome { get; set; }
         public string Email { get; set; }
         public string Celular { get; set; }
-        public virtual ICollection<Envio> EnvioSet { get; set; }
     }
 }

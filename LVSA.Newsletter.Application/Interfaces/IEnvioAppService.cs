@@ -10,5 +10,6 @@ namespace LVSA.Newsletter.Application.Interfaces
 {
     public interface IEnvioAppService : IAppServiceBase<EnvioViewModel,Envio>
     {
+        void EnviarSMS(LoteViewModel model);
     }
 }

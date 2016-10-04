@@ -15,5 +15,11 @@ namespace LVSA.Newsletter.Application
         public RemetenteAppService(IRemetenteService remetenteService) : base(remetenteService)
         {
         }
+
+        public override RemetenteViewModel Incluir(RemetenteViewModel model)
+        {
+            model.Id = Guid.NewGuid();
+            return base.Incluir(model);
+        }
     }
 }

@@ -11,6 +11,6 @@ namespace LVSA.Newsletter.Domain
         public Guid Id { get; set; }
         public string Assunto { get; set; }
         public string Body { get; set; }
-        public virtual ICollection<Destinatario> DestinatarioSet { get; set; }
+
     }
 }

@@ -11,8 +11,10 @@ namespace LVSA.Newsletter.Domain
         public Guid Id { get; set; }
         public DateTime Horario { get; set; }
         public Guid EnvioId { get; set; }
+        public Guid RemetenteId { get; set; }
 
         public virtual Envio Envio { get; set; }
+        public virtual Remetente Remetente { get; set; }
 
 
     }
