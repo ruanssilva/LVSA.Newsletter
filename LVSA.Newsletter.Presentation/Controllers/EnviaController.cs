@@ -1,4 +1,6 @@
 ﻿using LVSA.Newsletter.Application.Interfaces;
+using LVSA.Newsletter.Application.ViewModels;
+using LVSA.Newsletter.Presentation.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -33,21 +35,21 @@ namespace LVSA.Newsletter.Presentation.Controllers
         }
 
         [HttpPost]
-        public ActionResult SMS(Guid ServidorId, Guid RemetenteId, string SMS)
+        public ActionResult SMS(EnviaViewModel model)
         {
             ViewBag.Tipo = "Text/SMS";
-            ViewBag.ServidorId = ServidorId;
-            ViewBag.RemetenteId = RemetenteId;
+            ViewBag.ServidorId = model.ServidorId;
+            ViewBag.RemetenteId = model.RemetenteId;
 
             return View("Index");
         }
 
         [HttpPost]
-        public ActionResult Mail(Guid ServidorId, Guid RemetenteId, string Assunto, string Body)
+        public ActionResult Mail(EnviaViewModel model)
         {
             ViewBag.Tipo = "E-mail";
-            ViewBag.ServidorId = ServidorId;
-            ViewBag.RemetenteId = RemetenteId;
+            ViewBag.ServidorId = model.ServidorId;
+            ViewBag.RemetenteId = model.RemetenteId;
 
             return View("Index");
         }

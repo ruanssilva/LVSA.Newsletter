@@ -1,4 +1,4 @@
-﻿
+﻿@model LVSA.Newsletter.Presentation.ViewModels.EnviaViewModel
 @{
     ViewBag.Title = "Index";
 }
@@ -29,31 +29,31 @@
         <div class="form-group">
             <label class="control-label col-md-2">Servidor</label>
             <div class="col-md-10">
-                @Html.DropDownList("ServidorId", new SelectList(ViewBag.ServidorSet, "Id", "Nome", "Funcao", (object)ViewBag.ServidorId), "Selecione...", new { @class = "form-control" })
+                @Html.DropDownList("ServidorId", new SelectList(ViewBag.ServidorSet, "Id", "Nome", "Funcao", (object)Model.ServidorId), "Selecione...", new { @class = "form-control" })
             </div>
         </div>
         <div class="form-group">
             <label class="control-label col-md-2">Remetente</label>
             <div class="col-md-10">
-                @Html.DropDownList("RemetenteId", new SelectList(ViewBag.RemetenteSet, "Id", "Nome", (object)ViewBag.RemetenteId), "Selecione...", new { @class = "form-control" })
+                @Html.DropDownList("RemetenteId", new SelectList(ViewBag.RemetenteSet, "Id", "Nome", (object)Model.RemetenteId), "Selecione...", new { @class = "form-control" })
             </div>
         </div>
         <div class="form-group sms" style="display:none;">
             <label class="control-label col-md-2">Text/SMS</label>
             <div class="col-md-10">
-                @Html.TextArea("SMS", new { @class = "form-control" })
+                @Html.TextAreaFor(model => model.SMS, new { @class = "form-control" })
             </div>
         </div>
         <div class="form-group mail" style="display:none;">
             <label class="control-label col-md-2">Assunto</label>
             <div class="col-md-10">
-                @Html.TextBox("Assunto", "", new { @class = "form-control" })
+                @Html.TextBoxFor(model => model.Assunto, new { @class = "form-control" })
             </div>
         </div>
         <div class="form-group mail" style="display:none;">
             <label class="control-label col-md-2">Corpo e-mail</label>
             <div class="col-md-10">
-                @Html.TextArea("Body", new { @class = "form-control" })
+                @Html.TextAreaFor(model => model.Body, new { @class = "form-control" })
             </div>
         </div>
 
@@ -61,7 +61,7 @@
         <button type="submit" formaction="@Url.Action("Mail")" class="btn btn-primary mail">Enviar E-mail</button>
     </div>
 
-    
+
 }
 
 
@@ -72,7 +72,7 @@
             $('select[name="ServidorId"]')
                     .find('optgroup').hide();
 
-            
+
 
             $('input[name="Tipo"]').change(function () {
 
@@ -92,9 +92,13 @@
                     $('.form-group.mail').show();
                     $('.form-group.sms').hide();
                 }
+                else {
+                    $('.form-group.mail').hide();
+                    $('.form-group.sms').hide();
+                }
             });
 
-            $('input[name="Tipo"]').trigger('change');
+            $('input[name="Tipo"]:checked').trigger('change');
 
         });
     </script>
